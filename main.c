@@ -25,7 +25,7 @@ for ( i = 1; i < argc; ++i ) {
    printf("\npostOrder\n" );   
    postOrder( b.root );
 
-   printf("\ntreeOrder\n" );   
+   printf("\nBtoT\n" );   
    BtoT( b.root, c );
 
    printf("\n");
