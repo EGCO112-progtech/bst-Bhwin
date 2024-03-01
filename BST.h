@@ -122,7 +122,7 @@ void BtoT( TreeNodePtr treePtr ,int c)
       BtoT( treePtr->rightPtr, c ); //Recursion to the left
       
       for(int i=0;i<c;i++){
-         printf("    ");
+         printf("   ");
       }
       printf("%d\n",treePtr->data) ;  //print the value 
    
