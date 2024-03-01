@@ -28,6 +28,6 @@ for ( i = 1; i < argc; ++i ) {
    printf("\ntreeOrder\n" );   
    BtoT( b.root, c );
 
-    printf("\n");
+   printf("\n");
 } // end main
 
